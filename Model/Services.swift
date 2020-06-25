@@ -39,3 +39,7 @@ final class Services {
     }
 }
 
+enum NetWorkError: Error {
+    case noData, incorrectResponse, undecodableData
+    
+}

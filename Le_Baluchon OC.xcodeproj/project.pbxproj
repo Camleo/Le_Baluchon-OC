@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		81F41F5D24A30FE100AD8F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F5C24A30FE100AD8F99 /* AppDelegate.swift */; };
 		81F41F5F24A30FE100AD8F99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F5E24A30FE100AD8F99 /* SceneDelegate.swift */; };
-		81F41F6124A30FE100AD8F99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F6024A30FE100AD8F99 /* ViewController.swift */; };
 		81F41F6424A30FE100AD8F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F41F6224A30FE100AD8F99 /* Main.storyboard */; };
 		81F41F6624A30FE300AD8F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F41F6524A30FE300AD8F99 /* Assets.xcassets */; };
 		81F41F6924A30FE300AD8F99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F41F6724A30FE300AD8F99 /* LaunchScreen.storyboard */; };
+		81F41F7324A319FB00AD8F99 /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F7224A319FB00AD8F99 /* ExchangeViewController.swift */; };
+		81F41F7524A31A1500AD8F99 /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F7424A31A1500AD8F99 /* TranslateViewController.swift */; };
+		81F41F7924A3E2E500AD8F99 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F7024A319DE00AD8F99 /* WeatherViewController.swift */; };
+		81F41F7B24A3E3CF00AD8F99 /* WeatherMoscowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F7A24A3E3CF00AD8F99 /* WeatherMoscowViewController.swift */; };
+		81F41F7D24A3E65200AD8F99 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F7C24A3E65200AD8F99 /* Services.swift */; };
+		81F41F7F24A3E65B00AD8F99 /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F7E24A3E65B00AD8F99 /* NetworkCall.swift */; };
+		81F41F8224A3E6A700AD8F99 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F8124A3E6A700AD8F99 /* Currency.swift */; };
+		81F41F8424A3E74600AD8F99 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F8324A3E74600AD8F99 /* WeatherData.swift */; };
+		81F41F8624A3E77800AD8F99 /* TranslationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F8524A3E77800AD8F99 /* TranslationData.swift */; };
+		81F41F8824A4CAAF00AD8F99 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F8724A4CAAF00AD8F99 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		81F41F5924A30FE100AD8F99 /* Le_Baluchon OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Le_Baluchon OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F41F5C24A30FE100AD8F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81F41F5E24A30FE100AD8F99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		81F41F6024A30FE100AD8F99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		81F41F6324A30FE100AD8F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81F41F6524A30FE300AD8F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81F41F6824A30FE300AD8F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81F41F6A24A30FE300AD8F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F41F7024A319DE00AD8F99 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		81F41F7224A319FB00AD8F99 /* ExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
+		81F41F7424A31A1500AD8F99 /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
+		81F41F7A24A3E3CF00AD8F99 /* WeatherMoscowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMoscowViewController.swift; sourceTree = "<group>"; };
+		81F41F7C24A3E65200AD8F99 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		81F41F7E24A3E65B00AD8F99 /* NetworkCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCall.swift; sourceTree = "<group>"; };
+		81F41F8124A3E6A700AD8F99 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		81F41F8324A3E74600AD8F99 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		81F41F8524A3E77800AD8F99 /* TranslationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslationData.swift; sourceTree = "<group>"; };
+		81F41F8724A4CAAF00AD8F99 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				81F41F5B24A30FE100AD8F99 /* Le_Baluchon OC */,
+				81F41F8024A3E67800AD8F99 /* Extention */,
+				81F41F7824A31B4700AD8F99 /* Model */,
+				81F41F7724A31ABB00AD8F99 /* View */,
+				81F41F7624A31A9800AD8F99 /* Controller */,
 				81F41F5A24A30FE100AD8F99 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,13 +80,50 @@
 			children = (
 				81F41F5C24A30FE100AD8F99 /* AppDelegate.swift */,
 				81F41F5E24A30FE100AD8F99 /* SceneDelegate.swift */,
-				81F41F6024A30FE100AD8F99 /* ViewController.swift */,
-				81F41F6224A30FE100AD8F99 /* Main.storyboard */,
-				81F41F6524A30FE300AD8F99 /* Assets.xcassets */,
-				81F41F6724A30FE300AD8F99 /* LaunchScreen.storyboard */,
 				81F41F6A24A30FE300AD8F99 /* Info.plist */,
 			);
 			path = "Le_Baluchon OC";
+			sourceTree = "<group>";
+		};
+		81F41F7624A31A9800AD8F99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81F41F7424A31A1500AD8F99 /* TranslateViewController.swift */,
+				81F41F7224A319FB00AD8F99 /* ExchangeViewController.swift */,
+				81F41F7024A319DE00AD8F99 /* WeatherViewController.swift */,
+				81F41F7A24A3E3CF00AD8F99 /* WeatherMoscowViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81F41F7724A31ABB00AD8F99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81F41F6224A30FE100AD8F99 /* Main.storyboard */,
+				81F41F6724A30FE300AD8F99 /* LaunchScreen.storyboard */,
+				81F41F6524A30FE300AD8F99 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81F41F7824A31B4700AD8F99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81F41F7E24A3E65B00AD8F99 /* NetworkCall.swift */,
+				81F41F7C24A3E65200AD8F99 /* Services.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81F41F8024A3E67800AD8F99 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				81F41F8524A3E77800AD8F99 /* TranslationData.swift */,
+				81F41F8324A3E74600AD8F99 /* WeatherData.swift */,
+				81F41F8124A3E6A700AD8F99 /* Currency.swift */,
+				81F41F8724A4CAAF00AD8F99 /* UIView.swift */,
+			);
+			path = Extention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +197,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81F41F6124A30FE100AD8F99 /* ViewController.swift in Sources */,
+				81F41F8224A3E6A700AD8F99 /* Currency.swift in Sources */,
+				81F41F7324A319FB00AD8F99 /* ExchangeViewController.swift in Sources */,
+				81F41F7B24A3E3CF00AD8F99 /* WeatherMoscowViewController.swift in Sources */,
+				81F41F8624A3E77800AD8F99 /* TranslationData.swift in Sources */,
+				81F41F8824A4CAAF00AD8F99 /* UIView.swift in Sources */,
+				81F41F7F24A3E65B00AD8F99 /* NetworkCall.swift in Sources */,
+				81F41F7924A3E2E500AD8F99 /* WeatherViewController.swift in Sources */,
+				81F41F7D24A3E65200AD8F99 /* Services.swift in Sources */,
+				81F41F8424A3E74600AD8F99 /* WeatherData.swift in Sources */,
 				81F41F5D24A30FE100AD8F99 /* AppDelegate.swift in Sources */,
 				81F41F5F24A30FE100AD8F99 /* SceneDelegate.swift in Sources */,
+				81F41F7524A31A1500AD8F99 /* TranslateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

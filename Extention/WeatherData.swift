@@ -19,13 +19,13 @@ struct WeatherDataModel {
     let conditionMoscow: Int
     
     // Convert temperature into String to one decimal number
-       var temperatureString: String { return String(format: "%.1f", temperature) }
-       var temperatureStringMoscow: String { return String(format: "%.1f", temperatureMoscow) }
-       
-       // check with calculate properties which value should be return to set imageView
+    var temperatureString: String { return String(format: "%.1f", temperature) }
+    var temperatureStringMoscow: String { return String(format: "%.1f", temperatureMoscow) }
+    
+    // check with calculate properties which value should be return to set imageView
     var conditionName: String { updateWeatherIcon(to:  condition) }
     var conditionFromMoscow: String { updateWeatherIcon(to:
-       conditionMoscow) }
+        conditionMoscow) }
     
     func updateWeatherIcon(to id: Int) -> String {
         switch id {
@@ -58,4 +58,23 @@ struct WeatherDataModel {
         }
     }
 }
+   // struct WeatherJSON: Decodable {
+        //let list: [List]
+    //}
+    
+    struct List: Decodable {
+        let name: String
+        let main: TemparatureData
+        let weather: [Weather]
+    }
+    
+    struct TemparatureData: Decodable {
+        let temp: Double
+    }
+    
+    struct Weather: Decodable {
+        let description: String
+        let id: Int
+    }
+
 
