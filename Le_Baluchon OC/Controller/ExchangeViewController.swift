@@ -33,8 +33,8 @@ class ExchangeViewController: UIViewController {
     
     @IBAction func convertButton(_ sender: UIButton) {
          currencyTextField.resignFirstResponder()
-        guard let url = URL(string: "http://data.fixer.io/api/latest?access_key=7258bbe934222b776996cf936cb19661") else { return }
-        services.request(baseUrl: url, parameters: [("ApiKey", "7258bbe934222b776996cf936cb19661")]) { [unowned self]  (result: Result<Double, NetWorkError>) in
+        guard let url = URL(string: "http://data.fixer.io/api/latest?") else { return }
+        services.request(baseUrl: url, parameters: [("access_key", "7258bbe934222b776996cf936cb19661")]) { [unowned self]  (result: Result<Double, NetWorkError>) in
             switch result {
             case .success(let data):
                 DispatchQueue.main.async {

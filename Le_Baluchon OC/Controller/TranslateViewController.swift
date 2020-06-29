@@ -45,8 +45,8 @@ class TranslateViewController: UIViewController {
     
     @IBAction func transleButton(_ sender: UIButton) {
         toTranslateView.resignFirstResponder()
-        guard let url = URL(string: "https://translation.googleapis.com/language/translate/v2") else { return }
-        services.request(baseUrl: url, parameters: [("ApiKey", "AIzaSyAMNKz9mGeJTt_p1c-RBaivHdLj1ZNYAPA")]) { [unowned self]  (result: Result<String, NetWorkError>) in
+        guard let url = URL(string: "https://translation.googleapis.com/language/translate/v2?") else { return }
+        services.request(baseUrl: url, parameters: [("key, source, target, format, q", "AIzaSyAMNKz9mGeJTt_p1c-RBaivHdLj1ZNYAPA, fr, en, text, Bonjour")]) { [unowned self]  (result: Result<String, NetWorkError>) in
             switch result {
             case .success(let data):
                 DispatchQueue.main.async {

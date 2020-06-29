@@ -58,23 +58,6 @@ struct WeatherDataModel {
         }
     }
 }
-   // struct WeatherJSON: Decodable {
-        //let list: [List]
-    //}
-    
-    struct List: Decodable {
-        let name: String
-        let main: TemparatureData
-        let weather: [Weather]
-    }
-    
-    struct TemparatureData: Decodable {
-        let temp: Double
-    }
-    
-    struct Weather: Decodable {
-        let description: String
-        let id: Int
-    }
+  
 
 

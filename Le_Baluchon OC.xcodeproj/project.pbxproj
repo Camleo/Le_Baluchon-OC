@@ -22,6 +22,8 @@
 		81F41F8424A3E74600AD8F99 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F8324A3E74600AD8F99 /* WeatherData.swift */; };
 		81F41F8624A3E77800AD8F99 /* TranslationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F8524A3E77800AD8F99 /* TranslationData.swift */; };
 		81F41F8824A4CAAF00AD8F99 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F8724A4CAAF00AD8F99 /* UIView.swift */; };
+		81F41F8A24A4E8A400AD8F99 /* WeatherJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F8924A4E8A400AD8F99 /* WeatherJSON.swift */; };
+		81F41F8C24A532A000AD8F99 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F8B24A532A000AD8F99 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		81F41F8324A3E74600AD8F99 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		81F41F8524A3E77800AD8F99 /* TranslationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslationData.swift; sourceTree = "<group>"; };
 		81F41F8724A4CAAF00AD8F99 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		81F41F8924A4E8A400AD8F99 /* WeatherJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherJSON.swift; sourceTree = "<group>"; };
+		81F41F8B24A532A000AD8F99 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				81F41F5B24A30FE100AD8F99 /* Le_Baluchon OC */,
-				81F41F8024A3E67800AD8F99 /* Extention */,
-				81F41F7824A31B4700AD8F99 /* Model */,
-				81F41F7724A31ABB00AD8F99 /* View */,
-				81F41F7624A31A9800AD8F99 /* Controller */,
 				81F41F5A24A30FE100AD8F99 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,6 +78,10 @@
 		81F41F5B24A30FE100AD8F99 /* Le_Baluchon OC */ = {
 			isa = PBXGroup;
 			children = (
+				81F41F7824A31B4700AD8F99 /* Model */,
+				81F41F7724A31ABB00AD8F99 /* View */,
+				81F41F7624A31A9800AD8F99 /* Controller */,
+				81F41F8024A3E67800AD8F99 /* Extention */,
 				81F41F5C24A30FE100AD8F99 /* AppDelegate.swift */,
 				81F41F5E24A30FE100AD8F99 /* SceneDelegate.swift */,
 				81F41F6A24A30FE300AD8F99 /* Info.plist */,
@@ -120,8 +124,10 @@
 			children = (
 				81F41F8524A3E77800AD8F99 /* TranslationData.swift */,
 				81F41F8324A3E74600AD8F99 /* WeatherData.swift */,
+				81F41F8924A4E8A400AD8F99 /* WeatherJSON.swift */,
 				81F41F8124A3E6A700AD8F99 /* Currency.swift */,
 				81F41F8724A4CAAF00AD8F99 /* UIView.swift */,
+				81F41F8B24A532A000AD8F99 /* Logger.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -198,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81F41F8224A3E6A700AD8F99 /* Currency.swift in Sources */,
+				81F41F8A24A4E8A400AD8F99 /* WeatherJSON.swift in Sources */,
 				81F41F7324A319FB00AD8F99 /* ExchangeViewController.swift in Sources */,
 				81F41F7B24A3E3CF00AD8F99 /* WeatherMoscowViewController.swift in Sources */,
 				81F41F8624A3E77800AD8F99 /* TranslationData.swift in Sources */,
@@ -207,6 +214,7 @@
 				81F41F7D24A3E65200AD8F99 /* Services.swift in Sources */,
 				81F41F8424A3E74600AD8F99 /* WeatherData.swift in Sources */,
 				81F41F5D24A30FE100AD8F99 /* AppDelegate.swift in Sources */,
+				81F41F8C24A532A000AD8F99 /* Logger.swift in Sources */,
 				81F41F5F24A30FE100AD8F99 /* SceneDelegate.swift in Sources */,
 				81F41F7524A31A1500AD8F99 /* TranslateViewController.swift in Sources */,
 			);
@@ -284,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -338,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -353,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T38SSUR7P9;
 				INFOPLIST_FILE = "Le_Baluchon OC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -370,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T38SSUR7P9;
 				INFOPLIST_FILE = "Le_Baluchon OC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
