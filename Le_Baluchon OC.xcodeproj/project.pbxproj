@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		812C40DD24B449DC00828353 /* NetworkCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C40DC24B449DC00828353 /* NetworkCallTests.swift */; };
+		812C40E524B44A3000828353 /* FakeReponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C40E424B44A3000828353 /* FakeReponseData.swift */; };
+		812C40E824B460EC00828353 /* Fixer.json in Resources */ = {isa = PBXBuildFile; fileRef = 812C40E724B460EC00828353 /* Fixer.json */; };
+		812C40EA24B4613F00828353 /* Google.json in Resources */ = {isa = PBXBuildFile; fileRef = 812C40E924B4613F00828353 /* Google.json */; };
+		812C40EC24B4619600828353 /* Weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 812C40EB24B4619600828353 /* Weather.json */; };
+		812C40EE24B461F600828353 /* URLSessionFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C40ED24B461F600828353 /* URLSessionFake.swift */; };
+		819AEC2724AF0D4900C7EFB3 /* FixerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819AEC2624AF0D4900C7EFB3 /* FixerService.swift */; };
+		819AEC2924AF373900C7EFB3 /* GoogleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819AEC2824AF373900C7EFB3 /* GoogleService.swift */; };
+		819AEC2B24AF7D1D00C7EFB3 /* OpenWeatherMapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819AEC2A24AF7D1D00C7EFB3 /* OpenWeatherMapService.swift */; };
 		81F41F5D24A30FE100AD8F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F5C24A30FE100AD8F99 /* AppDelegate.swift */; };
 		81F41F5F24A30FE100AD8F99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F5E24A30FE100AD8F99 /* SceneDelegate.swift */; };
 		81F41F6424A30FE100AD8F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F41F6224A30FE100AD8F99 /* Main.storyboard */; };
@@ -15,8 +24,7 @@
 		81F41F7324A319FB00AD8F99 /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F7224A319FB00AD8F99 /* ExchangeViewController.swift */; };
 		81F41F7524A31A1500AD8F99 /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F7424A31A1500AD8F99 /* TranslateViewController.swift */; };
 		81F41F7924A3E2E500AD8F99 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F7024A319DE00AD8F99 /* WeatherViewController.swift */; };
-		81F41F7B24A3E3CF00AD8F99 /* WeatherMoscowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F7A24A3E3CF00AD8F99 /* WeatherMoscowViewController.swift */; };
-		81F41F7D24A3E65200AD8F99 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F7C24A3E65200AD8F99 /* Services.swift */; };
+		81F41F7D24A3E65200AD8F99 /* RequestCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F7C24A3E65200AD8F99 /* RequestCall.swift */; };
 		81F41F7F24A3E65B00AD8F99 /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F7E24A3E65B00AD8F99 /* NetworkCall.swift */; };
 		81F41F8224A3E6A700AD8F99 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F8124A3E6A700AD8F99 /* Currency.swift */; };
 		81F41F8424A3E74600AD8F99 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F8324A3E74600AD8F99 /* WeatherData.swift */; };
@@ -26,7 +34,40 @@
 		81F41F8C24A532A000AD8F99 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F41F8B24A532A000AD8F99 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		812C40D124B445DE00828353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81F41F5124A30FE100AD8F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81F41F5824A30FE100AD8F99;
+			remoteInfo = "Le_Baluchon OC";
+		};
+		812C40DF24B449DC00828353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81F41F5124A30FE100AD8F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81F41F5824A30FE100AD8F99;
+			remoteInfo = "Le_Baluchon OC";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		812C40CC24B445DE00828353 /* NetworkCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		812C40DA24B449DC00828353 /* Le_Baluchon OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Le_Baluchon OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		812C40DC24B449DC00828353 /* NetworkCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCallTests.swift; sourceTree = "<group>"; };
+		812C40DE24B449DC00828353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812C40E424B44A3000828353 /* FakeReponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeReponseData.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		812C40E724B460EC00828353 /* Fixer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Fixer.json; sourceTree = "<group>"; };
+		812C40E924B4613F00828353 /* Google.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Google.json; sourceTree = "<group>"; };
+		812C40EB24B4619600828353 /* Weather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Weather.json; sourceTree = "<group>"; };
+		812C40ED24B461F600828353 /* URLSessionFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionFake.swift; sourceTree = "<group>"; };
+		812C410424B7B63D00828353 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		812C410524B7B63E00828353 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		812C410624B7B71D00828353 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		812C410724B7B71D00828353 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		819AEC2624AF0D4900C7EFB3 /* FixerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixerService.swift; sourceTree = "<group>"; };
+		819AEC2824AF373900C7EFB3 /* GoogleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleService.swift; sourceTree = "<group>"; };
+		819AEC2A24AF7D1D00C7EFB3 /* OpenWeatherMapService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapService.swift; sourceTree = "<group>"; };
 		81F41F5924A30FE100AD8F99 /* Le_Baluchon OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Le_Baluchon OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F41F5C24A30FE100AD8F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81F41F5E24A30FE100AD8F99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,8 +78,7 @@
 		81F41F7024A319DE00AD8F99 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		81F41F7224A319FB00AD8F99 /* ExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
 		81F41F7424A31A1500AD8F99 /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
-		81F41F7A24A3E3CF00AD8F99 /* WeatherMoscowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMoscowViewController.swift; sourceTree = "<group>"; };
-		81F41F7C24A3E65200AD8F99 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		81F41F7C24A3E65200AD8F99 /* RequestCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestCall.swift; sourceTree = "<group>"; };
 		81F41F7E24A3E65B00AD8F99 /* NetworkCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCall.swift; sourceTree = "<group>"; };
 		81F41F8124A3E6A700AD8F99 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		81F41F8324A3E74600AD8F99 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
@@ -49,6 +89,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		812C40C924B445DE00828353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812C40D724B449DC00828353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81F41F5624A30FE100AD8F99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,10 +113,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		812C40DB24B449DC00828353 /* Le_Baluchon OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				812C40DC24B449DC00828353 /* NetworkCallTests.swift */,
+				812C40DE24B449DC00828353 /* Info.plist */,
+				812C40E424B44A3000828353 /* FakeReponseData.swift */,
+				812C40ED24B461F600828353 /* URLSessionFake.swift */,
+				812C40E724B460EC00828353 /* Fixer.json */,
+				812C40E924B4613F00828353 /* Google.json */,
+				812C40EB24B4619600828353 /* Weather.json */,
+			);
+			path = "Le_Baluchon OCTests";
+			sourceTree = "<group>";
+		};
 		81F41F5024A30FE100AD8F99 = {
 			isa = PBXGroup;
 			children = (
 				81F41F5B24A30FE100AD8F99 /* Le_Baluchon OC */,
+				812C40DB24B449DC00828353 /* Le_Baluchon OCTests */,
 				81F41F5A24A30FE100AD8F99 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				81F41F5924A30FE100AD8F99 /* Le_Baluchon OC.app */,
+				812C40CC24B445DE00828353 /* NetworkCallTests.xctest */,
+				812C40DA24B449DC00828353 /* Le_Baluchon OCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,7 +166,6 @@
 				81F41F7424A31A1500AD8F99 /* TranslateViewController.swift */,
 				81F41F7224A319FB00AD8F99 /* ExchangeViewController.swift */,
 				81F41F7024A319DE00AD8F99 /* WeatherViewController.swift */,
-				81F41F7A24A3E3CF00AD8F99 /* WeatherMoscowViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -113,8 +183,16 @@
 		81F41F7824A31B4700AD8F99 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				81F41F8B24A532A000AD8F99 /* Logger.swift */,
 				81F41F7E24A3E65B00AD8F99 /* NetworkCall.swift */,
-				81F41F7C24A3E65200AD8F99 /* Services.swift */,
+				81F41F7C24A3E65200AD8F99 /* RequestCall.swift */,
+				819AEC2624AF0D4900C7EFB3 /* FixerService.swift */,
+				819AEC2824AF373900C7EFB3 /* GoogleService.swift */,
+				819AEC2A24AF7D1D00C7EFB3 /* OpenWeatherMapService.swift */,
+				81F41F8524A3E77800AD8F99 /* TranslationData.swift */,
+				81F41F8324A3E74600AD8F99 /* WeatherData.swift */,
+				81F41F8924A4E8A400AD8F99 /* WeatherJSON.swift */,
+				81F41F8124A3E6A700AD8F99 /* Currency.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -122,12 +200,7 @@
 		81F41F8024A3E67800AD8F99 /* Extention */ = {
 			isa = PBXGroup;
 			children = (
-				81F41F8524A3E77800AD8F99 /* TranslationData.swift */,
-				81F41F8324A3E74600AD8F99 /* WeatherData.swift */,
-				81F41F8924A4E8A400AD8F99 /* WeatherJSON.swift */,
-				81F41F8124A3E6A700AD8F99 /* Currency.swift */,
 				81F41F8724A4CAAF00AD8F99 /* UIView.swift */,
-				81F41F8B24A532A000AD8F99 /* Logger.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -135,6 +208,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		812C40CB24B445DE00828353 /* NetworkCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812C40D524B445DE00828353 /* Build configuration list for PBXNativeTarget "NetworkCallTests" */;
+			buildPhases = (
+				812C40C824B445DE00828353 /* Sources */,
+				812C40C924B445DE00828353 /* Frameworks */,
+				812C40CA24B445DE00828353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				812C40D224B445DE00828353 /* PBXTargetDependency */,
+			);
+			name = NetworkCallTests;
+			productName = NetworkCallTests;
+			productReference = 812C40CC24B445DE00828353 /* NetworkCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		812C40D924B449DC00828353 /* Le_Baluchon OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812C40E124B449DC00828353 /* Build configuration list for PBXNativeTarget "Le_Baluchon OCTests" */;
+			buildPhases = (
+				812C40D624B449DC00828353 /* Sources */,
+				812C40D724B449DC00828353 /* Frameworks */,
+				812C40D824B449DC00828353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				812C40E024B449DC00828353 /* PBXTargetDependency */,
+			);
+			name = "Le_Baluchon OCTests";
+			productName = "Le_Baluchon OCTests";
+			productReference = 812C40DA24B449DC00828353 /* Le_Baluchon OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		81F41F5824A30FE100AD8F99 /* Le_Baluchon OC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81F41F6D24A30FE300AD8F99 /* Build configuration list for PBXNativeTarget "Le_Baluchon OC" */;
@@ -162,6 +271,14 @@
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "rochdi ben abdeljelil";
 				TargetAttributes = {
+					812C40CB24B445DE00828353 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 81F41F5824A30FE100AD8F99;
+					};
+					812C40D924B449DC00828353 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 81F41F5824A30FE100AD8F99;
+					};
 					81F41F5824A30FE100AD8F99 = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -174,6 +291,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				ru,
 			);
 			mainGroup = 81F41F5024A30FE100AD8F99;
 			productRefGroup = 81F41F5A24A30FE100AD8F99 /* Products */;
@@ -181,11 +300,30 @@
 			projectRoot = "";
 			targets = (
 				81F41F5824A30FE100AD8F99 /* Le_Baluchon OC */,
+				812C40CB24B445DE00828353 /* NetworkCallTests */,
+				812C40D924B449DC00828353 /* Le_Baluchon OCTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		812C40CA24B445DE00828353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812C40D824B449DC00828353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812C40EA24B4613F00828353 /* Google.json in Resources */,
+				812C40EC24B4619600828353 /* Weather.json in Resources */,
+				812C40E824B460EC00828353 /* Fixer.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81F41F5724A30FE100AD8F99 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +337,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		812C40C824B445DE00828353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812C40D624B449DC00828353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812C40DD24B449DC00828353 /* NetworkCallTests.swift in Sources */,
+				812C40EE24B461F600828353 /* URLSessionFake.swift in Sources */,
+				812C40E524B44A3000828353 /* FakeReponseData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81F41F5524A30FE100AD8F99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,14 +361,16 @@
 				81F41F8224A3E6A700AD8F99 /* Currency.swift in Sources */,
 				81F41F8A24A4E8A400AD8F99 /* WeatherJSON.swift in Sources */,
 				81F41F7324A319FB00AD8F99 /* ExchangeViewController.swift in Sources */,
-				81F41F7B24A3E3CF00AD8F99 /* WeatherMoscowViewController.swift in Sources */,
+				819AEC2B24AF7D1D00C7EFB3 /* OpenWeatherMapService.swift in Sources */,
 				81F41F8624A3E77800AD8F99 /* TranslationData.swift in Sources */,
+				819AEC2724AF0D4900C7EFB3 /* FixerService.swift in Sources */,
 				81F41F8824A4CAAF00AD8F99 /* UIView.swift in Sources */,
 				81F41F7F24A3E65B00AD8F99 /* NetworkCall.swift in Sources */,
 				81F41F7924A3E2E500AD8F99 /* WeatherViewController.swift in Sources */,
-				81F41F7D24A3E65200AD8F99 /* Services.swift in Sources */,
+				81F41F7D24A3E65200AD8F99 /* RequestCall.swift in Sources */,
 				81F41F8424A3E74600AD8F99 /* WeatherData.swift in Sources */,
 				81F41F5D24A30FE100AD8F99 /* AppDelegate.swift in Sources */,
+				819AEC2924AF373900C7EFB3 /* GoogleService.swift in Sources */,
 				81F41F8C24A532A000AD8F99 /* Logger.swift in Sources */,
 				81F41F5F24A30FE100AD8F99 /* SceneDelegate.swift in Sources */,
 				81F41F7524A31A1500AD8F99 /* TranslateViewController.swift in Sources */,
@@ -222,11 +379,26 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		812C40D224B445DE00828353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81F41F5824A30FE100AD8F99 /* Le_Baluchon OC */;
+			targetProxy = 812C40D124B445DE00828353 /* PBXContainerItemProxy */;
+		};
+		812C40E024B449DC00828353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81F41F5824A30FE100AD8F99 /* Le_Baluchon OC */;
+			targetProxy = 812C40DF24B449DC00828353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		81F41F6224A30FE100AD8F99 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				81F41F6324A30FE100AD8F99 /* Base */,
+				812C410424B7B63D00828353 /* fr */,
+				812C410624B7B71D00828353 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -235,6 +407,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				81F41F6824A30FE300AD8F99 /* Base */,
+				812C410524B7B63E00828353 /* fr */,
+				812C410724B7B71D00828353 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -242,10 +416,91 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		812C40D324B445DE00828353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetworkCallTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rochdi.NetworkCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Le_Baluchon OC.app/Le_Baluchon OC";
+			};
+			name = Debug;
+		};
+		812C40D424B445DE00828353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetworkCallTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rochdi.NetworkCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Le_Baluchon OC.app/Le_Baluchon OC";
+			};
+			name = Release;
+		};
+		812C40E224B449DC00828353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Le_Baluchon OCTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rochdi.Le-Baluchon-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Le_Baluchon OC.app/Le_Baluchon OC";
+			};
+			name = Debug;
+		};
+		812C40E324B449DC00828353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Le_Baluchon OCTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rochdi.Le-Baluchon-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Le_Baluchon OC.app/Le_Baluchon OC";
+			};
+			name = Release;
+		};
 		81F41F6B24A30FE300AD8F99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -306,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -395,6 +651,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		812C40D524B445DE00828353 /* Build configuration list for PBXNativeTarget "NetworkCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812C40D324B445DE00828353 /* Debug */,
+				812C40D424B445DE00828353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812C40E124B449DC00828353 /* Build configuration list for PBXNativeTarget "Le_Baluchon OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812C40E224B449DC00828353 /* Debug */,
+				812C40E324B449DC00828353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		81F41F5424A30FE100AD8F99 /* Build configuration list for PBXProject "Le_Baluchon OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

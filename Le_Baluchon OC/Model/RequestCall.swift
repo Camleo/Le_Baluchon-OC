@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class Services {
+final class RequestCall{
     
     private let networkCall: NetworkCall
     

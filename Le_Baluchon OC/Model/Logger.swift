@@ -21,7 +21,7 @@ struct Logger {
 
     func show() {
         defer {
-            print("\n *****************     End     ****************** \n")
+            print("== End ==")
         }
 
         guard let httpMethod = request.httpMethod else { return }

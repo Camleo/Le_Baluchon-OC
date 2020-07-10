@@ -1,0 +1,54 @@
+
+/* Class = "UINavigationItem"; title = "Translate"; ObjectID = "5ey-Pe-wHj"; */
+"5ey-Pe-wHj.title" = "Translate";
+
+/* Class = "UILabel"; text = "Moscow"; ObjectID = "7Dn-CA-q9q"; */
+"7Dn-CA-q9q.text" = "Moscow";
+
+/* Class = "UILabel"; text = "Français"; ObjectID = "7fW-Pc-cl2"; */
+"7fW-Pc-cl2.text" = "Français";
+
+/* Class = "UIButton"; normalTitle = "Translate"; ObjectID = "FSQ-BR-SPj"; */
+"FSQ-BR-SPj.normalTitle" = "Translate";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "G1E-V1-adW"; */
+"G1E-V1-adW.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "EXCHANGE"; ObjectID = "HZj-SE-Jr8"; */
+"HZj-SE-Jr8.title" = "EXCHANGE";
+
+/* Class = "UILabel"; text = "Anglais"; ObjectID = "NPQ-CB-2E4"; */
+"NPQ-CB-2E4.text" = "Anglais";
+
+/* Class = "UILabel"; text = "25℃"; ObjectID = "RbB-Wg-Cra"; */
+"RbB-Wg-Cra.text" = "25℃";
+
+/* Class = "UILabel"; text = "Somme a convertir"; ObjectID = "T1J-Gb-ZkW"; */
+"T1J-Gb-ZkW.text" = "Somme a convertir";
+
+/* Class = "UIButton"; normalTitle = "Convertir"; ObjectID = "U7t-IJ-Sjt"; */
+"U7t-IJ-Sjt.normalTitle" = "Convertir";
+
+/* Class = "UILabel"; text = "Resultat"; ObjectID = "WS2-pS-Bgg"; */
+"WS2-pS-Bgg.text" = "Resultat";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "cnG-Os-6MX"; */
+"cnG-Os-6MX.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "New York"; ObjectID = "geP-T6-ecN"; */
+"geP-T6-ecN.title" = "New York";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "hrC-a6-M1t"; */
+"hrC-a6-M1t.title" = "Item";
+
+/* Class = "UILabel"; text = "New York"; ObjectID = "i2Z-Dq-1DR"; */
+"i2Z-Dq-1DR.text" = "New York";
+
+/* Class = "UILabel"; text = "EUR"; ObjectID = "rHb-eN-R2T"; */
+"rHb-eN-R2T.text" = "EUR";
+
+/* Class = "UILabel"; text = "25℃"; ObjectID = "xhW-BY-kSt"; */
+"xhW-BY-kSt.text" = "25℃";
+
+/* Class = "UILabel"; text = "USD"; ObjectID = "xxh-A1-3pD"; */
+"xxh-A1-3pD.text" = "USD";

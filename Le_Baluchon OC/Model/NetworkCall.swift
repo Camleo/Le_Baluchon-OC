@@ -26,7 +26,7 @@ final class NetworkCall {
     
     func request(baseUrl: URL, parameters: [(String, Any)]?, callback: @escaping HTTPResponse) {
         let url = encrypt(baseUrl: baseUrl, with: parameters)
-        //Logger(url: url).show()
+        Logger(url: url).show()
         task?.cancel()
         task = session.dataTask(with: url) { data, response, error in
             
