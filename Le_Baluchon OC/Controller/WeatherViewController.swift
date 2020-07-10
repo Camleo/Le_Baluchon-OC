@@ -12,7 +12,7 @@ class WeatherViewController: UIViewController {
     
     var imageView: UIImageView = {
         let imageView = UIImageView(frame: .zero)
-        imageView.image = UIImage(named: "New York")
+        imageView.image = UIImage(named: "temps")
         imageView.contentMode = .scaleToFill
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
@@ -28,13 +28,13 @@ class WeatherViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
-        //        view.insertSubview(imageView, at: 0)
-        //        NSLayoutConstraint.activate([
-        //            imageView.topAnchor.constraint(equalTo: view.topAnchor),
-        //            imageView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-        //            imageView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-        //            imageView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
-        //        ])
+                view.insertSubview(imageView, at: 0)
+                NSLayoutConstraint.activate([
+                    imageView.topAnchor.constraint(equalTo: view.topAnchor),
+                    imageView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+                    imageView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+                    imageView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+                ])
         
     }
     override func viewWillAppear(_ animated: Bool) {
@@ -65,7 +65,7 @@ class WeatherViewController: UIViewController {
         for i in 0...1 {
             cityLabel[i].text = cities[i].cityName
             temperatureLabel[i].text = cities[i].temperatureString
-            conditionIcon[i].image = UIImage(imageLiteralResourceName: cities[i].updateWeatherIcon(to: cities[i].conditionId))
+            conditionIcon[i].image = UIImage(named: cities[i].updateWeatherIcon(to: cities[i].conditionId))
         }
         
     }

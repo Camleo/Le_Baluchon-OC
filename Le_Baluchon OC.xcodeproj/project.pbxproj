@@ -61,10 +61,6 @@
 		812C40E924B4613F00828353 /* Google.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Google.json; sourceTree = "<group>"; };
 		812C40EB24B4619600828353 /* Weather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Weather.json; sourceTree = "<group>"; };
 		812C40ED24B461F600828353 /* URLSessionFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionFake.swift; sourceTree = "<group>"; };
-		812C410424B7B63D00828353 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
-		812C410524B7B63E00828353 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		812C410624B7B71D00828353 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
-		812C410724B7B71D00828353 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		819AEC2624AF0D4900C7EFB3 /* FixerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixerService.swift; sourceTree = "<group>"; };
 		819AEC2824AF373900C7EFB3 /* GoogleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleService.swift; sourceTree = "<group>"; };
 		819AEC2A24AF7D1D00C7EFB3 /* OpenWeatherMapService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapService.swift; sourceTree = "<group>"; };
@@ -291,8 +287,6 @@
 			knownRegions = (
 				en,
 				Base,
-				fr,
-				ru,
 			);
 			mainGroup = 81F41F5024A30FE100AD8F99;
 			productRefGroup = 81F41F5A24A30FE100AD8F99 /* Products */;
@@ -397,8 +391,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				81F41F6324A30FE100AD8F99 /* Base */,
-				812C410424B7B63D00828353 /* fr */,
-				812C410624B7B71D00828353 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -407,8 +399,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				81F41F6824A30FE300AD8F99 /* Base */,
-				812C410524B7B63E00828353 /* fr */,
-				812C410724B7B71D00828353 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

@@ -315,10 +315,10 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="374" placeholderIntrinsicHeight="50.666666666666664" text="New York" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i2Z-Dq-1DR" userLabel=" New York">
                                 <rect key="frame" x="20" y="278" width="374" height="50.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0NM-ER-lAS">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0NM-ER-lAS" userLabel="sunny">
                                 <rect key="frame" x="20" y="113" width="120" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="Fd0-3E-odQ"/>
@@ -328,7 +328,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25℃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhW-BY-kSt" userLabel="25 ℃">
                                 <rect key="frame" x="234.66666666666663" y="113" width="159.33333333333337" height="82"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="68"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moscow" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Dn-CA-q9q">
@@ -337,10 +337,10 @@
                                     <constraint firstAttribute="height" constant="70" id="zrK-q2-sRi"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pIg-21-xN7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pIg-21-xN7" userLabel="IconMSK">
                                 <rect key="frame" x="20" y="649" width="120" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="Bi6-jo-Ejr"/>
@@ -353,7 +353,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="157" id="Hd0-08-5gm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="67"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -382,10 +382,10 @@
                     <connections>
                         <outletCollection property="cityLabel" destination="i2Z-Dq-1DR" collectionClass="NSMutableArray" id="uJB-Ab-M04"/>
                         <outletCollection property="cityLabel" destination="7Dn-CA-q9q" collectionClass="NSMutableArray" id="XKR-Z3-evR"/>
-                        <outletCollection property="conditionIcon" destination="0NM-ER-lAS" collectionClass="NSMutableArray" id="S4n-h3-Sz9"/>
-                        <outletCollection property="conditionIcon" destination="pIg-21-xN7" collectionClass="NSMutableArray" id="8hE-sD-CNk"/>
                         <outletCollection property="temperatureLabel" destination="xhW-BY-kSt" collectionClass="NSMutableArray" id="es1-yY-Afg"/>
                         <outletCollection property="temperatureLabel" destination="RbB-Wg-Cra" collectionClass="NSMutableArray" id="sfz-6L-rAu"/>
+                        <outletCollection property="conditionIcon" destination="0NM-ER-lAS" collectionClass="NSMutableArray" id="DYj-eg-hUX"/>
+                        <outletCollection property="conditionIcon" destination="pIg-21-xN7" collectionClass="NSMutableArray" id="pMg-2Z-Q2L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vkZ-aT-RvN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
