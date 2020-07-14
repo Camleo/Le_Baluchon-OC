@@ -1,16 +1,16 @@
 {
   "images" : [
     {
-      "filename" : "icons8-journée-partiellement-nuageuse-52.png",
+      "filename" : "icons8-pluie-intense-50.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "icons8-pluie-intense-100.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "icons8-journée-partiellement-nuageuse-100.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

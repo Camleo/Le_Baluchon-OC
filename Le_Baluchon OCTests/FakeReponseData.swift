@@ -23,7 +23,7 @@ class FakeResponseData {
     
     static var translateCorrectData: Data? {
         let bundle = Bundle(for: FakeResponseData.self)
-        let url = bundle.url(forResource: "Translate", withExtension: ".json")!
+        let url = bundle.url(forResource: "Google", withExtension: ".json")!
         return try? Data(contentsOf: url)
     }
     

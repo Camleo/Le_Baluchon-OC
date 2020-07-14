@@ -8,6 +8,11 @@
 
 import UIKit
 
+enum Language: String {
+    case fr
+    case en
+}
+
 class TranslateViewController: UIViewController {
     
     
@@ -18,10 +23,10 @@ class TranslateViewController: UIViewController {
     @IBOutlet weak var swapLanguage: UIButton!
     @IBOutlet weak var translatButton: UIButton!
     
-    var text: String = "" 
-    
+   
+    var text: String = ""
     let googleService = GoogleService()
-    //private var sourceLanguage: Language = .fr
+    private var sourceLanguage: Language = .fr
     
     // Called when the user click on the view (outside the UITextField).
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -42,7 +47,7 @@ class TranslateViewController: UIViewController {
         toTranslateView.resignFirstResponder()
         sender.rotateIt()
         (frLanguage.text, enLanguage.text) = (enLanguage.text, frLanguage.text)
-        //sourceLanguage = (sourceLanguage == .fr) ? .en : .fr
+        sourceLanguage = (sourceLanguage == .fr) ? .en : .fr
     }
     
     @IBAction func transleButton(_ sender: UIButton) {

@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		812C40DD24B449DC00828353 /* NetworkCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C40DC24B449DC00828353 /* NetworkCallTests.swift */; };
 		812C40E524B44A3000828353 /* FakeReponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C40E424B44A3000828353 /* FakeReponseData.swift */; };
 		812C40E824B460EC00828353 /* Fixer.json in Resources */ = {isa = PBXBuildFile; fileRef = 812C40E724B460EC00828353 /* Fixer.json */; };
 		812C40EA24B4613F00828353 /* Google.json in Resources */ = {isa = PBXBuildFile; fileRef = 812C40E924B4613F00828353 /* Google.json */; };
 		812C40EC24B4619600828353 /* Weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 812C40EB24B4619600828353 /* Weather.json */; };
 		812C40EE24B461F600828353 /* URLSessionFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C40ED24B461F600828353 /* URLSessionFake.swift */; };
+		817FB21524B8E93F00D13A25 /* Translate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817FB21424B8E93F00D13A25 /* Translate.swift */; };
+		817FB21F24BCA0FF00D13A25 /* OpenWeatherMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817FB21E24BCA0FF00D13A25 /* OpenWeatherMapTest.swift */; };
+		817FB22124BCA64E00D13A25 /* FixerServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817FB22024BCA64E00D13A25 /* FixerServiceTest.swift */; };
+		8185973B24BCE23500FCDF66 /* GoogleServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185973A24BCE23500FCDF66 /* GoogleServiceTest.swift */; };
 		819AEC2724AF0D4900C7EFB3 /* FixerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819AEC2624AF0D4900C7EFB3 /* FixerService.swift */; };
 		819AEC2924AF373900C7EFB3 /* GoogleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819AEC2824AF373900C7EFB3 /* GoogleService.swift */; };
 		819AEC2B24AF7D1D00C7EFB3 /* OpenWeatherMapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819AEC2A24AF7D1D00C7EFB3 /* OpenWeatherMapService.swift */; };
@@ -35,13 +38,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		812C40D124B445DE00828353 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 81F41F5124A30FE100AD8F99 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 81F41F5824A30FE100AD8F99;
-			remoteInfo = "Le_Baluchon OC";
-		};
 		812C40DF24B449DC00828353 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 81F41F5124A30FE100AD8F99 /* Project object */;
@@ -52,15 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		812C40CC24B445DE00828353 /* NetworkCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		812C40DA24B449DC00828353 /* Le_Baluchon OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Le_Baluchon OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		812C40DC24B449DC00828353 /* NetworkCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCallTests.swift; sourceTree = "<group>"; };
 		812C40DE24B449DC00828353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		812C40E424B44A3000828353 /* FakeReponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeReponseData.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		812C40E724B460EC00828353 /* Fixer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Fixer.json; sourceTree = "<group>"; };
 		812C40E924B4613F00828353 /* Google.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Google.json; sourceTree = "<group>"; };
 		812C40EB24B4619600828353 /* Weather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Weather.json; sourceTree = "<group>"; };
 		812C40ED24B461F600828353 /* URLSessionFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionFake.swift; sourceTree = "<group>"; };
+		817FB21424B8E93F00D13A25 /* Translate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translate.swift; sourceTree = "<group>"; };
+		817FB21E24BCA0FF00D13A25 /* OpenWeatherMapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapTest.swift; sourceTree = "<group>"; };
+		817FB22024BCA64E00D13A25 /* FixerServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixerServiceTest.swift; sourceTree = "<group>"; };
+		8185973A24BCE23500FCDF66 /* GoogleServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleServiceTest.swift; sourceTree = "<group>"; };
 		819AEC2624AF0D4900C7EFB3 /* FixerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixerService.swift; sourceTree = "<group>"; };
 		819AEC2824AF373900C7EFB3 /* GoogleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleService.swift; sourceTree = "<group>"; };
 		819AEC2A24AF7D1D00C7EFB3 /* OpenWeatherMapService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherMapService.swift; sourceTree = "<group>"; };
@@ -85,13 +83,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		812C40C924B445DE00828353 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		812C40D724B449DC00828353 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,13 +103,15 @@
 		812C40DB24B449DC00828353 /* Le_Baluchon OCTests */ = {
 			isa = PBXGroup;
 			children = (
-				812C40DC24B449DC00828353 /* NetworkCallTests.swift */,
-				812C40DE24B449DC00828353 /* Info.plist */,
 				812C40E424B44A3000828353 /* FakeReponseData.swift */,
 				812C40ED24B461F600828353 /* URLSessionFake.swift */,
-				812C40E724B460EC00828353 /* Fixer.json */,
-				812C40E924B4613F00828353 /* Google.json */,
+				817FB21E24BCA0FF00D13A25 /* OpenWeatherMapTest.swift */,
 				812C40EB24B4619600828353 /* Weather.json */,
+				817FB22024BCA64E00D13A25 /* FixerServiceTest.swift */,
+				812C40E724B460EC00828353 /* Fixer.json */,
+				8185973A24BCE23500FCDF66 /* GoogleServiceTest.swift */,
+				812C40E924B4613F00828353 /* Google.json */,
+				812C40DE24B449DC00828353 /* Info.plist */,
 			);
 			path = "Le_Baluchon OCTests";
 			sourceTree = "<group>";
@@ -136,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				81F41F5924A30FE100AD8F99 /* Le_Baluchon OC.app */,
-				812C40CC24B445DE00828353 /* NetworkCallTests.xctest */,
 				812C40DA24B449DC00828353 /* Le_Baluchon OCTests.xctest */,
 			);
 			name = Products;
@@ -184,8 +176,8 @@
 				81F41F7C24A3E65200AD8F99 /* RequestCall.swift */,
 				819AEC2624AF0D4900C7EFB3 /* FixerService.swift */,
 				819AEC2824AF373900C7EFB3 /* GoogleService.swift */,
-				819AEC2A24AF7D1D00C7EFB3 /* OpenWeatherMapService.swift */,
 				81F41F8524A3E77800AD8F99 /* TranslationData.swift */,
+				819AEC2A24AF7D1D00C7EFB3 /* OpenWeatherMapService.swift */,
 				81F41F8324A3E74600AD8F99 /* WeatherData.swift */,
 				81F41F8924A4E8A400AD8F99 /* WeatherJSON.swift */,
 				81F41F8124A3E6A700AD8F99 /* Currency.swift */,
@@ -197,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				81F41F8724A4CAAF00AD8F99 /* UIView.swift */,
+				817FB21424B8E93F00D13A25 /* Translate.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -204,24 +197,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		812C40CB24B445DE00828353 /* NetworkCallTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 812C40D524B445DE00828353 /* Build configuration list for PBXNativeTarget "NetworkCallTests" */;
-			buildPhases = (
-				812C40C824B445DE00828353 /* Sources */,
-				812C40C924B445DE00828353 /* Frameworks */,
-				812C40CA24B445DE00828353 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				812C40D224B445DE00828353 /* PBXTargetDependency */,
-			);
-			name = NetworkCallTests;
-			productName = NetworkCallTests;
-			productReference = 812C40CC24B445DE00828353 /* NetworkCallTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		812C40D924B449DC00828353 /* Le_Baluchon OCTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 812C40E124B449DC00828353 /* Build configuration list for PBXNativeTarget "Le_Baluchon OCTests" */;
@@ -267,10 +242,6 @@
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "rochdi ben abdeljelil";
 				TargetAttributes = {
-					812C40CB24B445DE00828353 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = 81F41F5824A30FE100AD8F99;
-					};
 					812C40D924B449DC00828353 = {
 						CreatedOnToolsVersion = 11.5;
 						TestTargetID = 81F41F5824A30FE100AD8F99;
@@ -294,20 +265,12 @@
 			projectRoot = "";
 			targets = (
 				81F41F5824A30FE100AD8F99 /* Le_Baluchon OC */,
-				812C40CB24B445DE00828353 /* NetworkCallTests */,
 				812C40D924B449DC00828353 /* Le_Baluchon OCTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		812C40CA24B445DE00828353 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		812C40D824B449DC00828353 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,20 +294,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		812C40C824B445DE00828353 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		812C40D624B449DC00828353 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				812C40DD24B449DC00828353 /* NetworkCallTests.swift in Sources */,
 				812C40EE24B461F600828353 /* URLSessionFake.swift in Sources */,
+				817FB22124BCA64E00D13A25 /* FixerServiceTest.swift in Sources */,
+				8185973B24BCE23500FCDF66 /* GoogleServiceTest.swift in Sources */,
 				812C40E524B44A3000828353 /* FakeReponseData.swift in Sources */,
+				817FB21F24BCA0FF00D13A25 /* OpenWeatherMapTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +325,7 @@
 				819AEC2924AF373900C7EFB3 /* GoogleService.swift in Sources */,
 				81F41F8C24A532A000AD8F99 /* Logger.swift in Sources */,
 				81F41F5F24A30FE100AD8F99 /* SceneDelegate.swift in Sources */,
+				817FB21524B8E93F00D13A25 /* Translate.swift in Sources */,
 				81F41F7524A31A1500AD8F99 /* TranslateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,11 +333,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		812C40D224B445DE00828353 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 81F41F5824A30FE100AD8F99 /* Le_Baluchon OC */;
-			targetProxy = 812C40D124B445DE00828353 /* PBXContainerItemProxy */;
-		};
 		812C40E024B449DC00828353 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 81F41F5824A30FE100AD8F99 /* Le_Baluchon OC */;
@@ -406,46 +360,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		812C40D324B445DE00828353 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NetworkCallTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rochdi.NetworkCallTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Le_Baluchon OC.app/Le_Baluchon OC";
-			};
-			name = Debug;
-		};
-		812C40D424B445DE00828353 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NetworkCallTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rochdi.NetworkCallTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Le_Baluchon OC.app/Le_Baluchon OC";
-			};
-			name = Release;
-		};
 		812C40E224B449DC00828353 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -641,15 +555,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		812C40D524B445DE00828353 /* Build configuration list for PBXNativeTarget "NetworkCallTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				812C40D324B445DE00828353 /* Debug */,
-				812C40D424B445DE00828353 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		812C40E124B449DC00828353 /* Build configuration list for PBXNativeTarget "Le_Baluchon OCTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
