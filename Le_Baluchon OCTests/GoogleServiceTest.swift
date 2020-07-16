@@ -118,12 +118,12 @@ class GoogleServiceTest: XCTestCase {
     
     func testGetTranslationShouldPostFailedCallback_Error() {
         // Given
-        let translate = GoogleService()
-        let service = RequestCall(networkCall: NetworkCall(session: URLSessionFake(data: FakeResponseData.translateCorrectData, response: FakeResponseData.responseOK, error: nil)))
+        let requestCall = RequestCall(networkCall: NetworkCall(session: URLSessionFake(data: FakeResponseData.translateCorrectData, response: FakeResponseData.responseKO, error: nil)))
+        let translate = GoogleService(service: requestCall)
         // When
         let expectation = XCTestExpectation(description: "Wait for queue change")
         
-        service.request(baseUrl: url, parameters: [("key", "AIzaSyAMNKz9mGeJTt_p1c-RBaivHdLj1ZNYAPA"), ("source", "fr"), ("target", "en"), ("format", "text"), ("q", "Bonjour")]) {  (result: Result<TranslateData, NetWorkError>) in
+        requestCall.request(baseUrl: url, parameters: [("key", "AIzaSyAMNKz9mGeJTt_p1c-RBaivHdLj1ZNYAPA"), ("source", "fr"), ("target", "en"), ("format", "text"), ("q", "Bonjour")]) {  (result: Result<TranslateData, NetWorkError>) in
             translate.getTranslation(text: "") { result in
                 guard case .failure(let error) = result else {
                     XCTFail("testGoogleShouldPostFailedCallbackError")
@@ -140,11 +140,11 @@ class GoogleServiceTest: XCTestCase {
     
     func testGetTranslation_ShouldPostSuccessCallBack_NoErrors() {
         //Given
-        let translate = GoogleService()
-        let service = RequestCall(networkCall: NetworkCall(session: URLSessionFake(data: FakeResponseData.translateCorrectData, response: FakeResponseData.responseOK, error: nil)))
+        let requestCall = RequestCall(networkCall: NetworkCall(session: URLSessionFake(data: FakeResponseData.translateCorrectData, response: FakeResponseData.responseOK, error: nil)))
+        let translate = GoogleService(service: requestCall)
         // When
         let expectation = XCTestExpectation(description: "Wait for queue change")
-        service.request(baseUrl: url, parameters: [("key", "AIzaSyAMNKz9mGeJTt_p1c-RBaivHdLj1ZNYAPA"), ("source", "fr"), ("target", "en"), ("format", "text"), ("q", "Bonjour")]) {  (result: Result<TranslateData, NetWorkError>) in
+        requestCall.request(baseUrl: url, parameters: [("key", "AIzaSyAMNKz9mGeJTt_p1c-RBaivHdLj1ZNYAPA"), ("source", "fr"), ("target", "en"), ("format", "text"), ("q", "Bonjour")]) {  (result: Result<TranslateData, NetWorkError>) in
             
             translate.getTranslation(text: "Bonjour") { result in
                 guard case .success(let data) = result else {

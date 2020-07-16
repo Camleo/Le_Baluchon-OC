@@ -16,8 +16,8 @@ class FixerServiceTest: XCTestCase {
     
     func testGetCurrencyShouldPostFailedCallback_Error() {
         // Given
-        let currency = FixerService()
-        let service = RequestCall(networkCall: NetworkCall(session: URLSessionFake(data: FakeResponseData.fixerCorrectData, response: FakeResponseData.responseOK, error: nil)))
+        let service = RequestCall(networkCall: NetworkCall(session: URLSessionFake(data: FakeResponseData.fixerCorrectData, response: FakeResponseData.responseKO, error: nil)))
+        let currency = FixerService(service: service)
         // When
         let expectation = XCTestExpectation(description: "Wait for queue change")
         
@@ -38,24 +38,24 @@ class FixerServiceTest: XCTestCase {
     
     func testGetCurrency_ShouldPostSuccessCallBack_NoErrors() {
         //Given
-        let translate = FixerService()
-        let service = RequestCall(networkCall: NetworkCall(session: URLSessionFake(data: FakeResponseData.fixerCorrectData, response: FakeResponseData.responseOK, error: nil)))
+        let requestCall = RequestCall(networkCall: NetworkCall(session: URLSessionFake(data: FakeResponseData.fixerCorrectData, response: FakeResponseData.responseOK, error: nil)))
+        let fixerService = FixerService(service: requestCall)
         // When
         let expectation = XCTestExpectation(description: "Wait for queue change")
-        service.request(baseUrl: url, parameters: [("access_key", "7258bbe934222b776996cf936cb19661"), ("symbols", "USD")]) {  (result: Result<Currency, NetWorkError>) in
+        requestCall.request(baseUrl: url, parameters: [("access_key", "7258bbe934222b776996cf936cb19661"), ("symbols", "USD")]) {  (result: Result<Currency, NetWorkError>) in
             
-            translate.getExchangeRate() { result in
+            fixerService.getExchangeRate() { result in
                 guard case .success(let data) = result else {
                     XCTFail("testFixerShouldPostFailedCallBackError")
                     return
                 }
                 
-                XCTAssertEqual(data, 1.139309)
+                XCTAssertEqual(data, 1.140345)
                 
                 // Then
                 expectation.fulfill()
             }
-            self.wait(for: [expectation], timeout: 1.01)
+            self.wait(for: [expectation], timeout: 0.01)
         }
     }
     

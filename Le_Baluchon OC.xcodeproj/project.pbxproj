@@ -175,12 +175,12 @@
 				81F41F7E24A3E65B00AD8F99 /* NetworkCall.swift */,
 				81F41F7C24A3E65200AD8F99 /* RequestCall.swift */,
 				819AEC2624AF0D4900C7EFB3 /* FixerService.swift */,
+				81F41F8124A3E6A700AD8F99 /* Currency.swift */,
 				819AEC2824AF373900C7EFB3 /* GoogleService.swift */,
 				81F41F8524A3E77800AD8F99 /* TranslationData.swift */,
 				819AEC2A24AF7D1D00C7EFB3 /* OpenWeatherMapService.swift */,
 				81F41F8324A3E74600AD8F99 /* WeatherData.swift */,
 				81F41F8924A4E8A400AD8F99 /* WeatherJSON.swift */,
-				81F41F8124A3E6A700AD8F99 /* Currency.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
